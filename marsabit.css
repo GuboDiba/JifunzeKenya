@@ -1,0 +1,24 @@
+.mbt{
+    width: 100%;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 0, 0.7),
+    0 0 20px 10px rgba(255, 255, 0, 0.5),
+    0 0 30px 15px rgba(255, 255, 0, 0.3);
+}
+.more{
+     margin-top: 63%;
+     margin-left: 5%;
+     margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pop{
+    flex-basis: 31%;
+    background: #c58653;
+    border-radius:10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+

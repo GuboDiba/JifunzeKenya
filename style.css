@@ -1,0 +1,333 @@
+body{
+    background-color: #f8e8e8;
+}
+
+
+
+ul,li{
+    display: flex;
+    margin-left: 10%;
+    
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f5eeca;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropbtn{
+  background: none;
+  border: none;
+  margin-left: 40%;
+  font-size: medium;
+}
+
+
+li,a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+
+
+
+/* Slideshow container */
+.container {
+    max-width: 100%;
+    position: relative;
+    
+
+  }
+  
+  .mySlides {
+    display: none;
+    position: relative;
+    text-align: center;
+  }
+  #button-more{
+    border-radius: 5px;
+    background-color: rgb(52, 53, 15);
+    padding: 15px 50px;
+    color: white;
+    border: none;
+  
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  #button-more:hover {
+    background-color: rgba(92, 155, 238, 0.8);
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    right: 20%;
+  }
+ 
+  #kenya{
+    width: 100%;
+    height: 70%;
+}
+
+
+/* ----------------Top Discoveries----------- */
+
+.uncover{
+    margin-left: 30%;
+    margin-bottom: 3%;
+}
+
+
+.discovery{
+    margin-top: -60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: xx-large;
+}
+.explor{
+    margin-left: 10%;
+
+}
+.sec{
+    display: flex;
+    margin-top: -1%;
+    margin-left: 2%;
+    flex-basis: 31%;
+    border-radius:10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 2.5s;
+    
+}
+.seco{
+    display: flex;
+    margin-top: 2%;
+    flex-basis: 31%;
+    border-radius:10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 2.5s;
+    margin-left: -4%;
+    margin-right: 10%;
+    
+}
+.sec,h3{
+    text-align: center;
+}
+.top{
+    margin-top: 5%;
+    text-align: center;
+}
+#mara{
+    width: 90%;
+    height: 100%;
+}
+#manor{
+    width: 90%;
+    height: 100%;
+}
+#mount{
+    width: 90%;
+    height: 100%;
+}
+
+.seco,h3{
+    text-align: center;
+
+}
+#mbs{
+    width: 50%;
+    height: 100%;
+}
+#nakuru{
+    width: 60%;
+    height: 100%;
+}
+#chalbi{
+    width: 140%;
+    height: 100%;
+}
+.dian{
+    margin-left: -4%;
+
+}
+.nk{
+    margin-left: -17%;
+
+}
+
+/* ------------------------------------------ */
+.tape{
+    margin-top: 4%;
+    padding: 20%;
+    background-image: url(/images/rhino_2399656a.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#culture{
+    font-size:40px;
+    color: white;
+
+}
+#ture{
+    color: white;
+    font-size:20px;
+
+}
+
+/* -------start---- */
+.start{
+  display: flex;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-around;
+}
+.nai{
+margin-right: 3%;
+}
+.let{
+  padding: 10px;
+  background-color: rgba(92, 155, 238, 0.8);
+  border: none;
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-top: 4%;
+  color: white;
+
+}
+
+
+
+
+/* ----------footer---- */
+.foot{
+    width: 100%;
+    height: 200px;
+    /* display: flex; */
+    margin-top: -1.2%;
+    background-color: rgba(92, 155, 238, 0.8);
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+  }
+  
+  footer ul li{
+    list-style: none;
+    
+    
+  }
+  .copy{
+    background-color: rgb(49, 32, 32);
+    color: white;
+    padding-bottom: 2%;
+    overflow-y: hidden;
+  }
+  #right{
+    margin-left: 40%;
+    margin-top: 3%;
+  }
+
+
+  /* contactus page */
+
+  #mbss{
+    width: 90%;
+    margin-left:5%;
+    height: 80vh;
+  }
+  #con{
+    margin-left: 30%;
+  }
+
+  .form{
+    /* border: solid rgba(92, 155, 238, 0.8); */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 50%;
+    text-align: center;
+    margin-left: 48%;
+    background-color:rgb(175, 225, 238) ;
+  }
+  
+  
+  .form >input{
+    padding: 15px 16px;
+    width: 80%;
+    border: solid rgb(175, 225, 238) 1px;
+    border-radius: 5px;
+    font-size: 15px;
+  
+  
+  }
+  .form>button{
+    background-color: rgba(92, 155, 238, 0.8);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 16px;
+    font-size: 10px;
+  }
+  .contact{
+    display: flex;
+  }
+  #message{
+    padding-bottom: 40%;
+  }
+
+
+  /* ----Mara page------ */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+  }
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .mamara{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 130%;
+  }
+  .mmra{
+    text-align: center;
+    margin-top: 1%;
+  }
